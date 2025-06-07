@@ -6,13 +6,13 @@
 
 :root {
     --preto: #000000;
-    --marinho: #006400;
-    --amarelo-claro: #98FB98;
-    --roxo-claro: #008000;
-    --verde: #99BC85;
-    --azul-claro: #E4EFE7;
+    --marinho: #8B0000;
+    --amarelo-claro: #FF0000;
+    --roxo-claro: #FFA07A;
+    --verde: #800000;
+    --azul-claro: #FFDAB9;
     --branco: #FFFFFF;
-    --marron-claro: #FAF1E6;
+    --marron-claro: #E0FFFF;
 }
 
 body {
@@ -122,7 +122,7 @@ h1 {
     font-size: 4rem;
 }
 
-.biologia-container {
+.matematica-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
