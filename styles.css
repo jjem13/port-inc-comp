@@ -1,77 +1,54 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root{
-    --preto: #000000;
-    --marinho: #4B0082;
-    --amarelo-claro: #DDA0DD;
-    --roxo-claro:#B2A5FF;
-    --verde: #DDA0DD;
-    --azul-claro: #FFE4E1;
-    --branco: #FFFFFF;
-    --marron-claro: #FFC0CB;
-}
-
-body{
-    height: 100vh;
-    box-sizing: border-box;
-    background-color: var(--azul-claro);
-    color: var(--preto);
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-header {
-    display: flex; 
-    width: 100%;
-    background-color: var(--marinho);
-    padding: 1rem;
-    justify-content: center;
-}
-
-.portfolio h1{
-    font-size: 4rem;
-    color: var(--amarelo-claro);
-}
-main {
-    margin: 40px auto;
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #D8BFD8;
     padding: 20px;
-}
-
-
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
-    flex-wrap: wrap;
-}
-
-.disciplina {
-    display: flex;
-    justify-content: center;
-    background-color: var(--branco);
-    border-radius: 10px;
-    padding: 30px;
+    text-align: center;
+    margin: 195px auto;
+    padding: 20px;
     width: 80%;
-    min-width: 280px;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.disciplina:hover {
-    transform: translateY(-10px) scale(1.05);
-    box-shadow: 0 0 0 25px rgba(0, 0, 0, 0.2);
+h1 {
+    color: #4B0082;
 }
 
-.disciplina a {
-    color: var(--verde);
-    font-size: 5rem;
+.menu {
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #BA55D3;
+    color: white;
     text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
 }
 
+.btn:hover {
+    background-color: #9932CC;
+}
 
+.btn.back {
+    background-color: #95a5a6;
+}
+
+section {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+    text-align: left;
+}
